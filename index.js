@@ -4,8 +4,9 @@ function driversWithRevenueOver(drivers, revenue)
   const newDrivers = drivers.filter(driver => driver.revenue > revenue);
   return newDrivers;
 }
-function driverNamesWithRevenueOver()
+function driverNamesWithRevenueOver(drivers, revenue)
 {
+  const newDrivers = drivers.filter(driver => driver.revenue > revenue).map(driver => driver.name)
 
 }
 function exactMatch()
