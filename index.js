@@ -10,9 +10,9 @@ function driverNamesWithRevenueOver(drivers, revenue)
   return driverNamesWithEnoughRevenue;
 
 }
-function exactMatch(driver, obj)
+function exactMatch(drivers, obj)
 {
-  
+  const matchingDrivers = drivers.filter(driver => driver[Object.keys(obj)[0]] == Object.values(obj)[0]);
 }
 function exactMatchToList()
 {
