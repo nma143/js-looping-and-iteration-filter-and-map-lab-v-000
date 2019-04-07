@@ -12,7 +12,7 @@ function driverNamesWithRevenueOver(drivers, revenue)
 }
 function exactMatch(driver, obj)
 {
-  const newDrivers =
+  
 }
 function exactMatchToList()
 {
